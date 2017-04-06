@@ -10,7 +10,7 @@ req(URL_TO_CRAWL, (error, response, body) => {
     if (!error && response.statusCode === 200) {
         const $ = cheerio.load(body)
         // console.log("Page title:  " + $('title').text());
-        var absoluteLinks = $("[href^='http']");
+        var absoluteLinks = $("[href^='https:\/\/gocardless.com']");
         
         absoluteLinks.each(function () {
             allAbsoluteLinks.push($(this).attr('href'));
