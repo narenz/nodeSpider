@@ -10,7 +10,7 @@ let allRelativeLinks = [],
 let results = {};
 let linksVisitedCount = 0;
 
-module.exports =  function (urlToCrawl, callbackFunc) {
+module.exports = exports = function(urlToCrawl, callbackFunc) {
     var regex = new RegExp(URL_REGEX);
 
     if (!urlToCrawl.match(regex)) {
