@@ -4,7 +4,8 @@
   "description": "scrapper example for Go-Cardless",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "karma start karma.config.js"
   },
   "keywords": [
     "scrapper",
@@ -14,9 +15,21 @@
   "author": "Naren Bellala",
   "license": "ISC",
   "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^14.3.0",
     "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "jasmine-core": "^2.5.2",
     "jsonfile": "^2.4.0",
+    "karma": "^1.6.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "mocha": "^3.2.0",
     "request": "^2.81.0",
-    "url-parse": "^1.1.8"
+    "url-parse": "^1.1.8",
+    "watchify": "^3.9.0"
   }
 }
