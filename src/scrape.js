@@ -1,7 +1,8 @@
 "use strict"
 const req = require('request'),
     URL_Parse = require('url-parse'),
-    cheerio = require('cheerio');
+    cheerio = require('cheerio'),
+    jsonfile = require('jsonfile');
 
 const URL_REGEX = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
 let allRelativeLinks = [],
@@ -9,7 +10,7 @@ let allRelativeLinks = [],
 let results = {};
 let linksVisitedCount = 0;
 
-const Scrape = function (urlToCrawl, callbackFunc) {
+module.exports =  function (urlToCrawl, callbackFunc) {
     var regex = new RegExp(URL_REGEX);
 
     if (!urlToCrawl.match(regex)) {
@@ -34,6 +35,8 @@ const Scrape = function (urlToCrawl, callbackFunc) {
             }
         });
     }
+
+    
 
     this.crawl = () => {
         let nextLink = allRelativeLinks.pop();
@@ -80,5 +83,3 @@ const Scrape = function (urlToCrawl, callbackFunc) {
         return assets;
     }
 }
-
-module.exports = Scrape;
