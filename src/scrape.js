@@ -1,43 +1,53 @@
 "use strict"
-const req = require('request');
-const URL_Parse = require('url-parse');
-const cheerio = require('cheerio');
+const req = require('request'),
+    URL_Parse = require('url-parse'),
+    cheerio = require('cheerio');
 
-// const urlToCrawl = "https://gocardless.com";
-// const URL_REGEX = 'https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)';
-let allRelativeLinks = [];
+const URL_REGEX = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
+let allRelativeLinks = [],
+    linksVisited = [];
 let results = {};
-let linksVisited = [];
-let pageCount = 0;
+let linksVisitedCount = 0;
 
 const Scrape = function (urlToCrawl, callbackFunc) {
-    this.getAllRelativeURL = () => {
+    var regex = new RegExp(URL_REGEX);
+
+    if (!urlToCrawl.match(regex)) {
+        callbackFunc('Bad URL');
+        return;
+    }
+
+    this.initialRelativeURLGrab = () => {
         req(urlToCrawl, (error, response, body) => {
             if (!error && response.statusCode === 200) {
                 const $ = cheerio.load(body);
                 let links = $("a[href^='/']");
                 $(links).each((i, link) => {
-                    allRelativeLinks.push($(link).attr('href'));
+                    allRelativeLinks.push(urlToCrawl + $(link).attr('href'));
                 });
                 console.log(allRelativeLinks.length + ' links found');
                 this.crawl();
             }
             else {
-                console.error(err);
+                console.log('URL not reachable' + error);
+                callbackFunc(error);
             }
         });
     }
 
     this.crawl = () => {
-        let nextPage = allRelativeLinks.pop();
-        pageCount++;
-        console.log(urlToCrawl + nextPage);
-        if (nextPage && nextPage in linksVisited) {
-            crawl();
-        } else if (pageCount <= allRelativeLinks.length) {
-            this.visitPageToExtractData(urlToCrawl + nextPage, this.crawl);
+        let nextLink = allRelativeLinks.pop();
+        linksVisitedCount++;
+        console.log(nextLink);
+        if (nextLink && nextLink in linksVisited) {
+            this.crawl();
+        } else if (linksVisitedCount <= allRelativeLinks.length) {
+            this.visitPageToExtractData(nextLink, this.crawl);
         } else {
             console.log('Done');
+            jsonfile.writeFile('result.json', results, (err) => {
+                console.error(err)
+            })
             callbackFunc(results);
             return;
         }

@@ -1,8 +1,9 @@
+"use strict"
 const express = require('express'),
     cheerio = require('cheerio'),
     request = require('request'),
-    jsonfile = require('jsonfile');
-const app = express();
+    jsonfile = require('jsonfile'),
+    app = express();
 
 const scrape = require('./src/scrape');
 
@@ -17,11 +18,14 @@ app.get('/crawl', (req, response) => {
         response.json(obj);
         process.exit();
     });
-    scraper.getAllRelativeURL();
+    scraper.initialRelativeURLGrab();
 });
 
 app.listen(8081, (err) => {
     if (!err) {
         console.log('listening on ' + 8081);
+    }
+    else {
+        process.exit();
     }
 });
