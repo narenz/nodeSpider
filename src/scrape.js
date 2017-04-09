@@ -1,9 +1,7 @@
-
 "use strict"
 const req = require('request');
 const URL_Parse = require('url-parse');
 const cheerio = require('cheerio');
-const jsonfile = require('jsonfile');
 
 // const urlToCrawl = "https://gocardless.com";
 // const URL_REGEX = 'https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)';
@@ -40,16 +38,9 @@ const Scrape = function (urlToCrawl, callbackFunc) {
             this.visitPageToExtractData(urlToCrawl + nextPage, this.crawl);
         } else {
             console.log('Done');
-            this.finish();
             callbackFunc(results);
             return;
         }
-    }
-
-    this.finish = () => {
-        jsonfile.writeFile('result.json', results, (err) => {
-            console.error(err)
-        })
     }
 
     this.visitPageToExtractData = (url, callback) => {
