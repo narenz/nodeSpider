@@ -9,7 +9,7 @@ let results = {};
 let linksVisitedCount = 0;
 
 const extract = require('./extractAssets.js');
-const httpService = require('./httpService.js');
+const getURL = require('./httpService.js').getURL;
 
 module.exports = exports = function (urlToCrawl, callbackFunc) {
     let regex = new RegExp(URL_REGEX);
@@ -32,7 +32,7 @@ module.exports = exports = function (urlToCrawl, callbackFunc) {
         this.err = (error) => {
             callbackFunc('URL not reachable ' + error);
         }
-        httpService(urlToCrawl, this.success, this.err);
+        getURL(urlToCrawl, this.success, this.err);
     }
 
     this.crawl = () => {
@@ -63,6 +63,6 @@ module.exports = exports = function (urlToCrawl, callbackFunc) {
         this.err = (error) => {
             console.log('URL not reachable ' + error);
         }
-        httpService(urlToCrawl, this.success, this.err);
+        getURL(urlToCrawl, this.success, this.err);
     }
 }

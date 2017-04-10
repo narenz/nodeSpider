@@ -2,7 +2,7 @@
     "https://gocardless.com/en-se/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -32,13 +32,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/nl-nl/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -68,13 +68,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/en-ie/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -104,13 +104,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/fr-fr/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -140,13 +140,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/en-eu/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -176,13 +176,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/es-es/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -212,13 +212,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/de-de/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -248,13 +248,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/nl-be/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -284,13 +284,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/fr-be/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -320,13 +320,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/legal/privacy/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -356,13 +356,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/payment-lookup/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -392,13 +392,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/contact-sales/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -428,13 +428,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/partner-with-us/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -464,13 +464,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/legal/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -500,13 +500,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/about/press/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -536,13 +536,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/blog": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -572,13 +572,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/about/jobs/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -608,13 +608,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/about/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -644,13 +644,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/customer-offers/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -680,13 +680,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/faq/merchants/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -716,13 +716,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/security/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -752,13 +752,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/guides": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -788,13 +788,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/stories/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -824,13 +824,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/pricing/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -860,13 +860,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/direct-debit-api/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -896,13 +896,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/partners/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -932,13 +932,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/better-direct-debit/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -968,13 +968,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/new-to-direct-debit/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -1004,13 +1004,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/features/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -1040,13 +1040,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/merchants/new": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -1076,13 +1076,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/zuora/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -1112,13 +1112,13 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     },
     "https://gocardless.com/sage/": {
         "js": [
             "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
-            "/bundle/main-76127f21e53bb7ad6770.js"
+            "/bundle/main-de5c8ed6bd5387936237.js"
         ],
         "images": [
             "/images/logos/box.png",
@@ -1148,7 +1148,7 @@
             "/images/flags/GB-flag-icon@2x.png"
         ],
         "css": [
-            "/bundle/main-76127f21e53bb7ad6770.css"
+            "/bundle/main-de5c8ed6bd5387936237.css"
         ]
     }
 }
