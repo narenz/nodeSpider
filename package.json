@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha --compilers js:babel-core/register"
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "keywords": [
     "scrapper",
@@ -25,6 +25,8 @@
     "chai": "^3.5.0",
     "cheerio": "^0.22.0",
     "express": "^4.15.2",
+    "isparta": "^4.0.0",
+    "istanbul": "^0.4.5",
     "jasmine-core": "^2.5.2",
     "jsonfile": "^2.4.0",
     "karma": "^1.6.0",
