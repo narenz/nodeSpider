@@ -18,7 +18,7 @@ app.get('/crawl', (req, response) => {
             process.exit();
         })
     });
-    scraper.initialRelativeURLGrab();
+    scraper.grabAllRelativeURLs();
 });
 
 app.listen(8081, (err) => {

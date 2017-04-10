@@ -45,27 +45,3 @@ describe('Crawler initialisation', function () {
         crawlerSpy.should.have.not.been.called();
     });
 });
-
-describe('Crawler behaviour', function () {
-
-    let crawlerSpy;
-    let callbackFn = (res) => {
-        //console.log("callbacked:" + res);
-    }
-
-    beforeEach(() => {
-        crawlerSpy = chai.spy(callbackFn);
-    });
-
-    afterEach(() => {
-        crawlerSpy.reset();
-    });
-
-    
-    it('should call initialRelativeURLGrab with valid assets', () => {
-        let crawl = new Crawler('https://gocardless.com', crawlerSpy);
-        crawl.initialRelativeURLGrab();
-        crawlerSpy.should.be.spy;
-        //crawlerSpy.should.have.been.called();
-    });
-});

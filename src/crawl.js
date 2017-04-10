@@ -9,44 +9,42 @@ let results = {};
 let linksVisitedCount = 0;
 
 const extract = require('./extractAssets.js');
+const httpService = require('./httpService.js');
 
 module.exports = exports = function (urlToCrawl, callbackFunc) {
     let regex = new RegExp(URL_REGEX);
-    
+
     if (!urlToCrawl.match(regex)) {
         callbackFunc('Bad URL');
         return;
     }
 
-    this.initialRelativeURLGrab = () => {
-        return req(urlToCrawl, (error, response, body) => {
-            if (!error && response.statusCode === 200) {
-                const $ = cheerio.load(body);
-                let links = $("a[href^='/']");
-                $(links).each((i, link) => {
-                    allRelativeLinks.push(urlToCrawl + $(link).attr('href'));
-                });
-                console.log(allRelativeLinks.length + ' links found');
-                this.crawl();
-            }
-            else {
-                console.log('URL not reachable' + error);
-                callbackFunc(error);
-            }
-        });
+    this.grabAllRelativeURLs = () => {
+        this.success = (body) => {
+            const $ = cheerio.load(body);
+            let links = $("a[href^='/']");
+            $(links).each((i, link) => {
+                allRelativeLinks.push(urlToCrawl + $(link).attr('href'));
+            });
+            console.log(allRelativeLinks.length + ' links found');
+            this.crawl();
+        }
+        this.err = (error) => {
+            callbackFunc('URL not reachable ' + error);
+        }
+        httpService(urlToCrawl, this.success, this.err);
     }
 
     this.crawl = () => {
         let nextLink = allRelativeLinks.pop();
         linksVisitedCount++;
-        console.log("visiting: "+nextLink);
+        console.log("visiting: " + nextLink);
 
         if (nextLink && nextLink in linksVisited) {
             this.crawl();
         } else if (linksVisitedCount <= allRelativeLinks.length) {
             this.visitPageToExtractData(nextLink, this.crawl);
         } else {
-            console.log('Done');
             callbackFunc(results);
             return;
         }
@@ -54,14 +52,17 @@ module.exports = exports = function (urlToCrawl, callbackFunc) {
 
     this.visitPageToExtractData = (url, callback) => {
         linksVisited[url] = true;
-        req(url, (error, response, body) => {
-            if (!error && response.statusCode === 200) {
-                const $ = cheerio.load(body);
-                results[url] = {};
-                results[url].js = extract($, 'script', 'src');
-                results[url].images = (extract($, 'img', 'src'));
-                callback();
-            }
-        });
+        this.success = (body) => {
+            const $ = cheerio.load(body);
+            results[url] = {};
+            results[url].js = extract($, 'script', 'src');
+            results[url].images = extract($, 'img', 'src');
+            results[url].css = extract($, 'link', 'href', 'css');
+            callback();
+        }
+        this.err = (error) => {
+            console.log('URL not reachable ' + error);
+        }
+        httpService(urlToCrawl, this.success, this.err);
     }
 }
