@@ -2,9 +2,7 @@ import 'babel-polyfill';
 import * as chai from 'chai';
 import cheerio from 'cheerio';
 
-let assert = chai.assert;
 let should = chai.should();
-let expect = chai.expect;
 let Extractor = require('../src/extractAssets.js');
 
 describe('Extractor', function() {
