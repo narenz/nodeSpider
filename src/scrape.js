@@ -1,8 +1,7 @@
 "use strict"
 const req = require('request'),
     URL_Parse = require('url-parse'),
-    cheerio = require('cheerio'),
-    jsonfile = require('jsonfile');
+    cheerio = require('cheerio');
 
 const URL_REGEX = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
 let allRelativeLinks = [],
@@ -48,9 +47,6 @@ module.exports = exports = function(urlToCrawl, callbackFunc) {
             this.visitPageToExtractData(nextLink, this.crawl);
         } else {
             console.log('Done');
-            jsonfile.writeFile('result.json', results, (err) => {
-                console.error(err)
-            })
             callbackFunc(results);
             return;
         }

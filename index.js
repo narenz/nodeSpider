@@ -2,7 +2,7 @@
 const express = require('express'),
     cheerio = require('cheerio'),
     request = require('request'),
-    jsonfile = require('jsonfile'),
+    fs = require('fs'),
     app = express();
 
 const scrape = require('./src/scrape');
@@ -12,11 +12,11 @@ app.get('/crawl', (req, response) => {
     console.log(baseUrl);
 
     const scraper = new scrape(baseUrl, (obj) => {
-        jsonfile.writeFile('result.json', obj, (err) => {
-            console.error(err)
+        fs.writeFile('results.json', JSON.stringify(obj, null, 4), function (err) {
+            console.log('File successfully written! - Check your project directory for the results.json file');
+            response.json(obj);
+            process.exit();
         })
-        response.json(obj);
-        process.exit();
     });
     scraper.initialRelativeURLGrab();
 });
