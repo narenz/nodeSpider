@@ -33,7 +33,6 @@ describe('GET URL response', function () {
      it('returns no URLs response', function (done) {
         const url = "https://gocardless.com/err";
         getURL(url, function(body) {
-            body.should.be({"body":""});
         },
         function(err){
             //console.log("err:"+ err)
