@@ -12,14 +12,17 @@ let linksVisitedCount = 0;
 const extract = require('./extractAssets.js');
 
 module.exports = exports = function (urlToCrawl, callbackFunc) {
-    var regex = new RegExp(URL_REGEX);
+    let regex = new RegExp(URL_REGEX);
+    
     if (!urlToCrawl.match(regex)) {
         callbackFunc('Bad URL');
         return;
     }
 
     this.initialRelativeURLGrab = () => {
+         console.log("heeeeeeeeeeeeelllllllllllooooooooooooo"+urlToCrawl);
         req(urlToCrawl, (error, response, body) => {
+            console.log(error, response, body);
             if (!error && response.statusCode === 200) {
                 const $ = cheerio.load(body);
                 let links = $("a[href^='/']");

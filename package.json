@@ -23,6 +23,7 @@
     "babelify": "^7.3.0",
     "browserify": "^14.3.0",
     "chai": "^3.5.0",
+    "chai-spies": "^0.7.1",
     "cheerio": "^0.22.0",
     "express": "^4.15.2",
     "isparta": "^4.0.0",
