@@ -1,0 +1,780 @@
+{
+    "https://gocardless.com/en-se/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos@2x.png",
+            "/images/logos/funding-circle-logo-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/nl-nl/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos@2x.png",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/en-ie/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos@2x.png",
+            "/images/logos/funding-circle-logo-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/fr-fr/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos-colour-fr@2x.png",
+            "/images/logos/partner-logos-fr@2x.png",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/en-eu/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos@2x.png",
+            "/images/logos/funding-circle-logo-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/es-es/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos-colour-es@2x.jpg",
+            "/images/logos/partner-logos-es@2x.jpg",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/de-de/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/german-logos@2x.png",
+            "/images/testimonials/betahaus__avatar.png",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/nl-be/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos@2x.png",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/fr-be/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos-colour-fr@2x.png",
+            "/images/logos/partner-logos-fr@2x.png",
+            "/images/footer/deloitte-technology-fast-500-2016-emea-winner.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/legal/privacy/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/payment-lookup/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/payment-lookup/calendar-icon.svg",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/contact-sales/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/partner-with-us/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/partners/partners-map@2x.jpg",
+            "/images/partners/kashflow-logo@2x.png",
+            "/images/partners/oauth-illustration@2x.png",
+            "/images/partners/take-payment-illustration@2x.png",
+            "/images/partners/teamup-logo@2x.png",
+            "/images/partners/zuora-logo@2x.png",
+            "/images/partners/pay-via-mobile-illustration@2x.png",
+            "/images/partners/partner-logos@2x.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/legal/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/about/press/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/blog": {
+        "js": [
+            "/blog/js/all.js",
+            "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58c68cd38f16bcc0"
+        ],
+        "images": [
+            "/blog/images/site-logo@2x.png",
+            "/blog/images/menu-icon@2x.png",
+            "/blog/images/authors/nicolapellatt.jpg",
+            "/blog/images/day-in-life-dev-support/nicola-p@2x.jpg",
+            "/blog/images/authors/samantha.jpg",
+            "/blog/images/tech-nation-2017/pic1@2x.jpg",
+            "/blog/images/authors/nlopes.jpg",
+            "/blog/images/authors/samantha.jpg",
+            "/blog/images/what-do-developers-want/developers@2x.jpg",
+            "/blog/images/authors/swillis.jpg",
+            "/blog/images/day-in-life-product-design/swillis@2x.jpg",
+            "/blog/images/authors/joe.jpg",
+            "/blog/images/sales-grad-scheme/sales-grad-scheme@2x.jpg",
+            "/blog/images/authors/chris-announce.jpg",
+            "/blog/images/authors/polly.jpg",
+            "/blog/images/introducing-gocardless-plus/bank-statement-en@2x.png",
+            "/blog/images/authors/samantha.jpg",
+            "/blog/images/gc-chartmogul/chartmogul@2x.png",
+            "/blog/images/authors/gabriela.jpg",
+            "/blog/images/working-with-recruiters/recruiting@2x.jpg",
+            "/blog/images/linkedin-icon.svg",
+            "/blog/images/twitter-icon.svg",
+            "/blog/images/facebook-icon.svg",
+            "/blog/images/youtube-icon.svg",
+            "/blog/images/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/blog/images/icons/uk-flag-icon@2x.png",
+            "/blog/images/icons/uk-flag-icon@2x.png",
+            "/blog/images/icons/fr-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/about/jobs/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/about/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/press/publications-stacked.jpg",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/customer-offers/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/merchant-offers/quickbooks.png",
+            "/images/merchant-offers/enterprise-nation.png",
+            "/images/merchant-offers/nutmeg.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/faq/merchants/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/security/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/guides": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/guides/assets/js/all.js"
+        ],
+        "images": [
+            "/guides/images/post-thumbnails/apprenticeships-thumb@2x.png",
+            "/guides/images/post-thumbnails/desk-thumb@2x.png",
+            "/guides/images/post-thumbnails/calculator-thumb@2x.png",
+            "/guides/images/guide-recurring_payments@2x.jpg",
+            "/guides/images/guide-direct_debit@2x.jpg",
+            "/guides/images/guide-intro_to_direct_debit@2x.jpg",
+            "/guides/images/guide-sepa@2x.jpg",
+            "/guides/images/guide-rfp@2x.jpg",
+            "/guides/images/guide-bg_autogiro@2x.jpg",
+            "/guides/images/linkedin-icon.svg",
+            "/guides/images/twitter-icon.svg",
+            "/guides/images/facebook-icon.svg",
+            "/guides/images/youtube-icon.svg",
+            "/guides/assets/images/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/guides/images/icons/uk-flag-icon@2x.png",
+            "/guides/images/icons/uk-flag-icon@2x.png",
+            "/guides/images/icons/fr-flag-icon@2x.png",
+            "/guides/images/icons/de-flag-icon@2x.png",
+            "/guides/images/icons/es-flag-icon@2x.png",
+            "/guides/images/icons/nl-flag-icon@2x.png",
+            "/guides/images/icons/se-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/stories/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/stories/story-logos/vax.png",
+            "/images/stories/story-logos/peterborough-council.png",
+            "/images/stories/story-logos/the-wow-company.png",
+            "/images/stories/story-logos/nutmeg.png",
+            "/images/stories/story-logos/teamup.png",
+            "/images/stories/story-logos/has-bean-coffee.png",
+            "/images/stories/story-logos/hotpod-yoga.png",
+            "/images/stories/story-logos/soaring-falcon.png",
+            "/images/stories/story-logos/your-parking-space.png",
+            "/images/stories/story-logos/bulb-energy.png",
+            "/images/stories/story-logos/boost-capital.png",
+            "/images/stories/story-logos/smart-pension.png",
+            "/images/stories/story-logos/fd-works.png",
+            "/images/stories/story-logos/lyles-sutherland.png",
+            "/images/stories/story-logos/connexin.png",
+            "/images/stories/story-logos/rock-choir.png",
+            "/images/stories/story-logos/slm-connect.png",
+            "/images/stories/story-logos/randw-media.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/pricing/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/direct-debit-api/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/logos/pro-logos-colour@2x.png",
+            "/images/logos/funding-circle-logo-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/partners/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/partners/logos/quickbooks-logo.jpg",
+            "/images/partners/logos/xero-logo.jpg",
+            "/images/partners/logos/freeagent-logo.jpg",
+            "/images/partners/logos/kashflow-logo.jpg",
+            "/images/partners/logos/sage50-logo.jpg",
+            "/images/partners/logos/zoho-logo.jpg",
+            "/images/partners/logos/teamup-logo.jpg",
+            "/images/partners/logos/pitchero-logo.jpg",
+            "/images/partners/logos/clubmanager-logo.jpg",
+            "/images/partners/logos/onlinescoutmanager-logo.jpg",
+            "/images/partners/logos/paysubsonline-logo.jpg",
+            "/images/partners/logos/webcollect-logo.jpg",
+            "/images/partners/logos/zuora-logo.jpg",
+            "/images/partners/logos/chargebee-logo.jpg",
+            "/images/partners/logos/junifer-logo.jpg",
+            "/images/partners/logos/salesforce-logo.jpg",
+            "/images/partners/logos/woocommerce-logo.jpg",
+            "/images/partners/logos/chartmogul-logo.jpg",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/better-direct-debit/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/funnels/existing-dd-integrations.png",
+            "/images/funnels/api_screenshot.png",
+            "/images/logos/box.png",
+            "/images/logos/the-guardian.png",
+            "/images/logos/hm-government.png",
+            "/images/logos/tripadvisor.png",
+            "/images/logos/thomas-cook.png",
+            "/images/logos/virgin.png",
+            "/images/logos/connexin-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/new-to-direct-debit/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/funnels/new-to-dd-integrations.png",
+            "/images/funnels/api_screenshot.png",
+            "/images/logos/box.png",
+            "/images/logos/the-guardian.png",
+            "/images/logos/hm-government.png",
+            "/images/logos/tripadvisor.png",
+            "/images/logos/thomas-cook.png",
+            "/images/logos/virgin.png",
+            "/images/logos/box-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/features/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/funnels/smb-integrations.png",
+            "/images/logos/box.png",
+            "/images/logos/the-guardian.png",
+            "/images/logos/hm-government.png",
+            "/images/logos/tripadvisor.png",
+            "/images/logos/thomas-cook.png",
+            "/images/logos/virgin.png",
+            "/images/logos/fd-white.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/merchants/new": {
+        "js": [
+            "/assets/connect/connect-compatibility-02fb4d2de7fdeef90b2e2d72bdb8f708f8526c571b9f65dc4bc6d8388c287595.js",
+            "//cdn.optimizely.com/js/125150657.js",
+            "/assets/connect/signup-manifest-0434981428c4fcfc7458987066e3db1d082d05851a6e5bb18132df731a13819e.js",
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC"
+        ],
+        "images": []
+    },
+    "https://gocardless.com/zuora/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/partners/zuora-screenshot@2x.png",
+            "/images/partners/zuora-logos.png",
+            "/images/partners/zuora-instruction-1.jpg",
+            "/images/partners/zuora-instruction-2.jpg",
+            "/images/partners/zuora-instruction-3.jpg",
+            "/images/partners/zuora-instruction-4.jpg",
+            "/images/partners/zuora-instruction-5.jpg",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    },
+    "https://gocardless.com/sage/": {
+        "js": [
+            "//www.googletagmanager.com/gtm.js?id=GTM-PRFKNC",
+            "/bundle/main-5ad41e17dd27d1e92f24.js"
+        ],
+        "images": [
+            "/images/partners/sage-screenshot@2x.png",
+            "/images/trustpilot-widget/logo.svg",
+            "/images/footer/deloitte-technology-fast-50-2016-uk-winner.png",
+            "/images/flags/GB-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/BE-flag-icon@2x.png",
+            "/images/flags/DE-flag-icon@2x.png",
+            "/images/flags/ES-flag-icon@2x.png",
+            "/images/flags/EU-flag-icon@2x.png",
+            "/images/flags/FR-flag-icon@2x.png",
+            "/images/flags/IE-flag-icon@2x.png",
+            "/images/flags/NL-flag-icon@2x.png",
+            "/images/flags/SE-flag-icon@2x.png",
+            "/images/flags/GB-flag-icon@2x.png"
+        ]
+    }
+}

@@ -5,7 +5,7 @@ const express = require('express'),
     fs = require('fs'),
     app = express();
 
-const scrape = require('./src/scrape');
+const scrape = require('./src/crawl');
 
 app.get('/crawl', (req, response) => {
     const baseUrl = req.query.url;

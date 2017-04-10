@@ -9,9 +9,10 @@ let allRelativeLinks = [],
 let results = {};
 let linksVisitedCount = 0;
 
-module.exports = exports = function(urlToCrawl, callbackFunc) {
-    var regex = new RegExp(URL_REGEX);
+const extract = require('./extractAssets.js');
 
+module.exports = exports = function (urlToCrawl, callbackFunc) {
+    var regex = new RegExp(URL_REGEX);
     if (!urlToCrawl.match(regex)) {
         callbackFunc('Bad URL');
         return;
@@ -35,12 +36,11 @@ module.exports = exports = function(urlToCrawl, callbackFunc) {
         });
     }
 
-    
-
     this.crawl = () => {
         let nextLink = allRelativeLinks.pop();
         linksVisitedCount++;
-        console.log(nextLink);
+        console.log("visiting "+nextLink);
+
         if (nextLink && nextLink in linksVisited) {
             this.crawl();
         } else if (linksVisitedCount <= allRelativeLinks.length) {
@@ -58,24 +58,10 @@ module.exports = exports = function(urlToCrawl, callbackFunc) {
             if (!error && response.statusCode === 200) {
                 const $ = cheerio.load(body);
                 results[url] = {};
-                results[url].js = this.extractAssets($, 'script', 'src');
-                results[url].images = (this.extractAssets($, 'img', 'src'));
+                results[url].js = extract($, 'script', 'src');
+                results[url].images = (extract($, 'img', 'src'));
                 callback();
             }
-            else {
-                callback();
-                return;
-            }
         });
-    }
-
-    this.extractAssets = ($, ele, atr) => {
-        let selectors = $(ele);
-        let assets = [];
-        $(selectors).each((i, link) => {
-            if ($(link).attr(atr))
-                assets.push($(link).attr(atr));
-        });
-        return assets;
     }
 }

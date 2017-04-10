@@ -1,10 +1,13 @@
 import 'babel-polyfill';
-import {dummy} from '../src/scrape';
+import * as chai from 'chai';
 
-describe('Crawl', function() {
-const vari = 0;
-	it('should crawl a valid URL', function() {
-        //expect(1).toEqual(1);
-        console.log(dummy());
+let assert = chai.assert;
+let should = chai.should();
+let expect = chai.expect;
+import * as extractor from '../src/extractAssets.js';
+
+describe('extractor', function() {
+	it('should extract assets from a valid HTML', function() {
+         console.log(extractor);
     });
 });
