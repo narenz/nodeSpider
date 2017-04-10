@@ -26,7 +26,7 @@ $ npm test
 
 - This is a node project written using ES6 features.
 - Unit testing written using Mocha and chai assertion.
-- Use of 3rd party lib `Cheerio` to parse the html response
+- Use of 3rd party lib `Cheerio` to parse the html responses.
 - Only used relative paths
 - Assets grabbed using the <img> and <src> tags only.
 - Crawl function recursively processes all relative links and grabs the assets.
@@ -38,4 +38,4 @@ $ npm test
 - Better unit test coverage.
 - Nested crawling i.e more than one level.
 - To use promises instead of callbacks.
-- To use test runner.
+- To use test runner and module bundlers.
