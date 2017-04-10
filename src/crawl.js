@@ -1,6 +1,5 @@
 "use strict"
 const req = require('request'),
-    URL_Parse = require('url-parse'),
     cheerio = require('cheerio');
 
 const URL_REGEX = /[-a-zA-Z0-9@:%_\+.~#?&//=]{2,256}\.[a-z]{2,4}\b(\/[-a-zA-Z0-9@:%_\+.~#?&//=]*)?/gi;
@@ -20,9 +19,7 @@ module.exports = exports = function (urlToCrawl, callbackFunc) {
     }
 
     this.initialRelativeURLGrab = () => {
-         console.log("heeeeeeeeeeeeelllllllllllooooooooooooo"+urlToCrawl);
-        req(urlToCrawl, (error, response, body) => {
-            console.log(error, response, body);
+        return req(urlToCrawl, (error, response, body) => {
             if (!error && response.statusCode === 200) {
                 const $ = cheerio.load(body);
                 let links = $("a[href^='/']");
@@ -42,7 +39,7 @@ module.exports = exports = function (urlToCrawl, callbackFunc) {
     this.crawl = () => {
         let nextLink = allRelativeLinks.pop();
         linksVisitedCount++;
-        console.log("visiting "+nextLink);
+        console.log("visiting: "+nextLink);
 
         if (nextLink && nextLink in linksVisited) {
             this.crawl();
